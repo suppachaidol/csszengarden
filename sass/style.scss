@@ -5,7 +5,7 @@ $main-padding: 10px;
 
 body {
     font-family: $fontFamily-primary;
-	background-image: url(/img/bg1.jpg);
+	background-image: url("./img/bg1.jpg");
     background-repeat: repeat;
 	margin: 0px;
     font-size: 1.2em;
@@ -13,7 +13,7 @@ body {
 
 header{
     padding: $main-padding;
-    background-image: url(/img/palette.png);
+    background-image: url("./img/palette.png");
     background-repeat: no-repeat;
     background-size: 250px 150px;
     background-position-x: 1000px;
@@ -36,7 +36,7 @@ abbr{
 }
 
 .page-wrapper {
-    background-image: url(/img/bg2.png);
+    background-image: url("./img/bg2.png");
     background-repeat: repeat-y;
     width:1300px;
     margin:20px auto;
@@ -61,7 +61,7 @@ abbr{
 }
 
 .preamble, .explanation, .participation, .benefits, .requirements{
-    background-image: url(/img/pencil.png);
+    background-image: url("./img/pencil.png");
     background-repeat: no-repeat;
     background-size: 50px;
     background-position-y: $bg-po-y;
@@ -113,7 +113,7 @@ footer{
 }
 
 #zen-supporting{
-    background-image: url(/img/balloon.gif);
+    background-image: url("./img/balloon.gif");
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: 500px;
