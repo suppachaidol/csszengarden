@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Crete Round:400");
+$fontFamily-primary: "Crete Round";
+$bg-po-y: 10px;
+$main-padding: 10px;
+
+body {
+    font-family: $fontFamily-primary;
+	background: url("../img/bg1.jpg") repeat;
+	margin: 0px;
+    font-size: 1.2em;
+}
+
+header{
+    padding: $main-padding;
+    background: url("../img/palette.png") no-repeat;
+    background-size: 250px 150px;
+    background-position-x: 1000px;
+    background-position-y: 50px;    
+}
+
+a{
+    text-decoration: none;
+}
+
+abbr{
+    text-decoration: underline;
+}
+
+.intro h1{
+    padding-left: 320px;
+}
+.intro h2{
+    padding-left: 265px;
+}
+
+.page-wrapper {
+    width:1300px;
+    margin:20px auto;
+    padding:0 40px;
+    position:relative;
+    background: url("../img/bg2.png") repeat-y;
+    border-radius: 5%;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.sidebar {
+	position: absolute;
+	top: 117px;
+    padding-left: 910px;
+    color: tomato;
+}
+
+.design-selection, .design-archives, .zen-resources{
+    border: 3px solid black;
+    border-radius: 5%;
+    padding: $main-padding;
+    margin: 50px 10px 10px 10px;
+}
+
+.preamble, .explanation, .participation, .benefits, .requirements{
+    background-size: 50px;
+    background: url("../img/pencil.png") no-repeat;
+    background-position-y: $bg-po-y;
+    padding: $main-padding;
+}
+.summary{
+    padding: $main-padding;
+}
+
+.preamble{
+    background-position-x: 575px;
+}
+
+.explanation{
+    background-position-x: 550px;
+}
+
+.participation{
+    background-position-x: 505px;
+}
+
+.benefits{
+    background-position-x: 480px;
+}
+
+.requirements{ 
+    background-position-x: 510px;
+}
+
+.preamble h3, .explanation h3, .participation h3, .benefits h3, .requirements h3{
+    text-align: center;
+}
+
+.summary, .preamble, .explanation, .participation, .benefits, .requirements{
+    padding-right:  440px;
+}
+
+footer a:hover {
+    background-color: #EDAB94;
+}
+
+footer a {
+    padding: 15px;
+    display: inline-block; 
+}
+footer{
+    position: relative;
+    left: 300px;
+}
+
+#zen-supporting{
+    background: url("../img/balloon.gif") no-repeat;
+    background-position-x: right;
+    background-position-y: 500px;
+    background-size: 350px;
+}
