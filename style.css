@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Crete Round:400");
 body {
   font-family: "Crete Round";
-  background: url("../img/bg1.jpg") repeat;
+  background-image: url(/img/bg1.jpg);
+  background-repeat: repeat;
   margin: 0px;
   font-size: 1.2em;
 }
 
 header {
   padding: 10px;
-  background: url("../img/palette.png") no-repeat;
+  background-image: url(/img/palette.png);
+  background-repeat: no-repeat;
   background-size: 250px 150px;
   background-position-x: 1000px;
   background-position-y: 50px;
@@ -31,11 +33,12 @@ abbr {
 }
 
 .page-wrapper {
+  background-image: url(/img/bg2.png);
+  background-repeat: repeat-y;
   width: 1300px;
   margin: 20px auto;
   padding: 0 40px;
   position: relative;
-  background: url("../img/bg2.png") repeat-y;
   border-radius: 5%;
   box-shadow: 10px 10px 5px #888888;
 }
@@ -55,8 +58,9 @@ abbr {
 }
 
 .preamble, .explanation, .participation, .benefits, .requirements {
+  background-image: url(/img/pencil.png);
+  background-repeat: no-repeat;
   background-size: 50px;
-  background: url("../img/pencil.png") no-repeat;
   background-position-y: 10px;
   padding: 10px;
 }
@@ -108,7 +112,8 @@ footer {
 }
 
 #zen-supporting {
-  background: url("../img/balloon.gif") no-repeat;
+  background-image: url(/img/balloon.gif);
+  background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 500px;
   background-size: 350px;
